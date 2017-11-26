@@ -1,0 +1,23 @@
+/* OPENTYPE FEATURES: https://css-tricks.com/almanac/properties/f/font-feature-settings/; */
+
+
+* {
+  -moz-font-feature-settings:"kern" 1;
+  -ms-font-feature-settings:"kern" 1;
+  -o-font-feature-settings:"kern" 1;
+  -webkit-font-feature-settings:"kern" 1;
+  font-feature-settings:"kern" 1;
+  font-kerning: normal;
+  letter-spacing: 0.015em;
+  word-spacing: 0.001em;
+
+  /*
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  */
+}
+.underline {
+  text-decoration: underline;
+  text-decoration-skip: ink;
+  text-decoration-color: #555;
+}
